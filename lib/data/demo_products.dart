@@ -1,0 +1,28 @@
+import '../models/product.dart';
+
+const demoProducts = <Product>[
+  Product(id:'p01', code:'EL-A123', name:'Magnetic Phone Stand', category:'Tech',
+    description:'A compact adjustable stand for your desk, bedside table and everyday setup.',
+    price:499, oldPrice:799, image:'https://images.unsplash.com/photo-1586953208448-b95a79798f07?w=900', tag:'Trending', rating:4.9, reviews:238),
+  Product(id:'p02', code:'AU-B456', name:'Studio Wireless Headphones', category:'Tech',
+    description:'Comfort-first wireless headphones with a clean minimal look and rich sound.',
+    price:1899, oldPrice:2499, image:'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=900', tag:'Popular', rating:4.8, reviews:184),
+  Product(id:'p03', code:'HM-C789', name:'Smart Ambient Lamp', category:'Home',
+    description:'Soft ambient lighting to make your room feel warmer and more considered.',
+    price:899, oldPrice:1199, image:'https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=900', tag:'New', rating:4.7, reviews:96),
+  Product(id:'p04', code:'HM-D214', name:'Minimal Ceramic Planter', category:'Home',
+    description:'A simple ceramic planter that brings a fresh touch to any corner.',
+    price:599, oldPrice:749, image:'https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=900', rating:4.8, reviews:73),
+  Product(id:'p05', code:'EL-E520', name:'Pocket Bluetooth Speaker', category:'Tech',
+    description:'Small in size, big on everyday sound. Made for home, travel and outdoors.',
+    price:1299, oldPrice:1699, image:'https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=900', tag:'Popular', rating:4.9, reviews:312),
+  Product(id:'p06', code:'LS-F631', name:'Everyday Crossbody Bag', category:'Lifestyle',
+    description:'A lightweight daily carry with practical storage and a timeless silhouette.',
+    price:999, oldPrice:1399, image:'https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=900', rating:4.6, reviews:88),
+  Product(id:'p07', code:'PT-G742', name:'Pet Travel Water Bottle', category:'Pets',
+    description:'A handy travel bottle that makes keeping your pet hydrated easier.',
+    price:399, oldPrice:599, image:'https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=900', tag:'Trending', rating:4.8, reviews:205),
+  Product(id:'p08', code:'HM-H853', name:'Soft Knit Cushion', category:'Home',
+    description:'Add a comfortable layer and a subtle texture to your favourite space.',
+    price:699, oldPrice:899, image:'https://images.unsplash.com/photo-1584100936595-c0654b55a2e2?w=900', rating:4.7, reviews:61),
+];
